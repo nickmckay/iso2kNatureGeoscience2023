@@ -1178,8 +1178,15 @@
     },
     "geoChronR": {
       "Package": "geoChronR",
-      "Version": "1.1.9",
-      "Source": "Bioconductor",
+      "Version": "1.1.10",
+      "Source": "GitHub",
+      "Remotes": "nickmckay/lipdR, nickmckay/nuspectral, neotomadb/neotoma2, dkahle/ggmap",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "GeoChronR",
+      "RemoteUsername": "nickmckay",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "f0e1e4f8924d3fe8a277afe879ceb6c5feee7a69",
       "Requirements": [
         "Bchron",
         "BiocManager",
@@ -1219,12 +1226,12 @@
         "readr",
         "reshape2",
         "scales",
-        "spatstat.core",
+        "spatstat.explore",
         "stringr",
         "tibble",
         "tidyr"
       ],
-      "Hash": "51b13daba36c67af023963b5cd32627f"
+      "Hash": "169f96075b2dd8091e60b89f42d3b0db"
     },
     "geosphere": {
       "Package": "geosphere",
@@ -1792,8 +1799,15 @@
     },
     "lipdR": {
       "Package": "lipdR",
-      "Version": "0.4.3",
-      "Source": "unknown",
+      "Version": "0.5.0",
+      "Source": "GitHub",
+      "Remotes": "neotomadb/neotoma2",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "lipdR",
+      "RemoteUsername": "nickmckay",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "69bca6ae24415d643a96372d71ba0f3ed23c01b7",
       "Requirements": [
         "R",
         "arsenal",
@@ -1814,7 +1828,7 @@
         "tidyr",
         "tidyselect"
       ],
-      "Hash": "290d514bb8588adfb5428f9cefbdb2c4"
+      "Hash": "1cebf21861b9a1c6ceea8d15df171bbe"
     },
     "listenv": {
       "Package": "listenv",
@@ -3006,33 +3020,6 @@
       ],
       "Hash": "2024a309411ff865488552f108c68333"
     },
-    "spatstat.core": {
-      "Package": "spatstat.core",
-      "Version": "2.4-4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "Matrix",
-        "R",
-        "abind",
-        "goftest",
-        "grDevices",
-        "graphics",
-        "methods",
-        "mgcv",
-        "nlme",
-        "rpart",
-        "spatstat.data",
-        "spatstat.geom",
-        "spatstat.random",
-        "spatstat.sparse",
-        "spatstat.utils",
-        "stats",
-        "tensor",
-        "utils"
-      ],
-      "Hash": "545286d6a69ff647be18aab77306fa54"
-    },
     "spatstat.data": {
       "Package": "spatstat.data",
       "Version": "3.0-0",
@@ -3044,6 +3031,30 @@
         "spatstat.utils"
       ],
       "Hash": "dcca3b7cce62123ad29d553e9c9f4915"
+    },
+    "spatstat.explore": {
+      "Package": "spatstat.explore",
+      "Version": "3.0-5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "Matrix",
+        "R",
+        "abind",
+        "goftest",
+        "grDevices",
+        "graphics",
+        "methods",
+        "nlme",
+        "spatstat.data",
+        "spatstat.geom",
+        "spatstat.random",
+        "spatstat.sparse",
+        "spatstat.utils",
+        "stats",
+        "utils"
+      ],
+      "Hash": "502fb70c13ef6395ea9f3bd1a7500093"
     },
     "spatstat.geom": {
       "Package": "spatstat.geom",
