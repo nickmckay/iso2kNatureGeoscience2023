@@ -52,9 +52,9 @@ library(patchwork)
 # you will need the folder 'functions' and then edit the filepaths here so R can read them in
 # -------------------------------------------------------------
 
-source("utilities/dineof.r")
-source("utilities/iso2kPCA_fun.r")
-source("utilities/project_field.R")
+source("utilities/R/dineof.r")
+source("utilities/R/iso2kPCA_fun.r")
+source("utilities/R/project_field.R")
 
 # =============================================================================
 # Read in v1 of the Iso2k database

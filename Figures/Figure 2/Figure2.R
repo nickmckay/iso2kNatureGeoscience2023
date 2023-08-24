@@ -50,8 +50,8 @@ library(patchwork)
 # you will need the folder 'functions' and then edit the filepaths here so R can read them in
 # -------------------------------------------------------------
 
-source("utilities/dineof.r")
-source("utilities/iso2kPCA_fun.r")
+source("utilities/R/dineof.r")
+source("utilities/R/iso2kPCA_fun.r")
 
 # =============================================================================
 # Read in v1 of the Iso2k database
@@ -708,7 +708,7 @@ proj_string_data <- "+proj=robin +lon_0=180 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WG
 # -------------------------------------------------------------
 # create world base maps at this point, head over to the 'create_world_basemap_PCs.R' script and run the whole thing
 # -----------------------------------------
-source('utilities/create_world_basemap_PCs.R')
+source('utilities/R/create_world_basemap_PCs.R')
 
 
 for(int_name in int_names) {

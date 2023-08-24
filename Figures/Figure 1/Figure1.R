@@ -595,7 +595,7 @@ outlines <- c("Significant correlation" = "black", "No significant correlation" 
 # Maps showing the correlations of each component record with the relevant composite
 # =============================================================================
 
-source("utilities/create_world_basemap.R")
+source("utilities/R/create_world_basemap.R")
 
 precIso_map <- world_basemap_rob +
   # add points: shaped by archive type, coloured by correlation, outlined by significance, sized by record duration
