@@ -5,6 +5,8 @@
 # Session Data files
 .RData
 .RDataTmp
+.nc
+.mat
 
 # User-specific files
 .Ruserdata
@@ -47,3 +49,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Julia files
+*.jl.*.cov
+*.jl.cov
+*.jl.mem
+Manifest.toml
