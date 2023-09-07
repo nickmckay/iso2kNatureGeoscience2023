@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8327340.svg)](https://doi.org/10.5281/zenodo.8327340)
+
+
 # Code to reproduce key analyses and figures from Konecky et al,. (2023) "Globally coherent water cycle response to temperature change during the past two millennia"
 
 This repository includes the R, Matlab and Julia code used to calculate the results shown in the figures. For some analyses/figures the plotting code is also included. 
@@ -30,3 +33,7 @@ Install using the Julia [package manager](https://pkgdocs.julialang.org/v1/):
 import Pkg
 Pkg.add(path="https://github.com/nickmckay/iso2kNatureGeoscience2023", subdir="utilities/Juliapkgs/MarkovBlocks.jl")
 ```
+
+## How to cite this repository
+
+McKay, Nicholas; Konecky, Bronwen; Falster, Georgina; Stevenson, Samantha and  Fischer, Matt. Code to reproduce key analyses and figures from Konecky et al,. (2023) "Globally coherent water cycle response to temperature change during the past two millennia". 2023. Zenodo, doi:10.5281/zenodo.8327340.
